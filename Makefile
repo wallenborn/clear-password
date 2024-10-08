@@ -3,11 +3,12 @@ all: clearpassword.exe
 
 
 clean:
-	rm -f clearpassword.exe
 	rm -f *~
 	rm -f .*~
 
 distclean: clean
+	rm -f clearpassword.exe
+	rm -f clearpassword
 
 clearpassword.exe: main.go
 	go build
