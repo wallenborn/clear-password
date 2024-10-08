@@ -1,5 +1,5 @@
 
-all: clearpassword.exe
+all: clearpassword.exe clearpassword
 
 
 clean:
