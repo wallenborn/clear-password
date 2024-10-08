@@ -1,6 +1,8 @@
+all: windows linux
 
-all: clearpassword.exe clearpassword
+windows: clearpassword.exe
 
+linux: clearpassword
 
 clean:
 	rm -f *~
